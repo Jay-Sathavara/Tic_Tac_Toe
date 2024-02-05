@@ -70,32 +70,32 @@ int count = 0;
                     NewGame();
                 } else if (b7.equals(b8) && b8.equals(b9) && !b7.equals("")) {
                     //r3
-                    Toast.makeText(this, "Winner is\t " + b7, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b7, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (b1.equals(b4) && b4.equals(b7) && !b1.equals("")) {
                     //c1
-                    Toast.makeText(this, "Winner is\t " + b1, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b1, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (b2.equals(b5) && b5.equals(b8) && !b2.equals("")) {
                     //c2
-                    Toast.makeText(this, "Winner is\t " + b2, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b2, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (b3.equals(b6) && b6.equals(b9) && !b3.equals("")) {
                     //c3
-                    Toast.makeText(this, "Winner is\t " + b3, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b3, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (b1.equals(b5) && b5.equals(b9) && !b5.equals("")) {
                     //bd
-                    Toast.makeText(this, "Winner is\t " + b1, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b1, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (b3.equals(b5) && b5.equals(b7) && !b5.equals("")) {
                     //fd
-                    Toast.makeText(this, "Winner is\t " + b3, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Winner is\t " + b3, Toast.LENGTH_SHORT).show();
                     NewGame();
                 } else if (!b1.equals("") && !b2.equals("") && !b3.equals("")
                         && !b4.equals("") && !b5.equals("") && !b6.equals("")
                         && !b7.equals("") && !b8.equals("") && !b9.equals("") ) {
-                    Toast.makeText(this, "Game is Drown !!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "\b Game is Drown !!!", Toast.LENGTH_SHORT).show();
                     NewGame();
                 }
             }
